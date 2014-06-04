@@ -13,7 +13,7 @@ OptionParser.new do |opts|
 
   opts.on("-f", "--file FILE_NAME", "Filename") { |v| options[:filename] = v }
 
-  opts.on( "-h:", "--help", "Display this screen" ) do
+  opts.on( "-h", "--help", "Display this screen" ) do
      puts opts
      exit
   end
